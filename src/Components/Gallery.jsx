@@ -10,7 +10,7 @@ const GalleryWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 10px;
+  margin: 2rem;
 `;
 
 const photos = [

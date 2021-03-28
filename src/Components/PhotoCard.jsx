@@ -11,11 +11,13 @@ const Card = styled.div`
   justify-content: flex-start;
   cursor: pointer;
   position: relative;
+  border: 0.1rem solid;
+  border-color: #262923;
+  padding: 1rem;
+  box-shadow: 5px 10px;
 
   &:hover {
-    border: 0.1rem solid;
-    padding: 1rem;
-    box-shadow: 5px 10px;
+    color: #6a5569;
   }
 `;
 
@@ -32,7 +34,7 @@ const Painting = styled.img`
 
 const Title = styled.h3`
   margin-bottom: 7px;
-  color: black;
+  color: #262923;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
 `;
