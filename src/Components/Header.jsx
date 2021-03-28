@@ -8,9 +8,6 @@ const Header = styled.header`
   height: 14rem;
   background: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  position: fixed;
-  top: 0;
-  z-index: 999;
 `;
 
 const HeaderNav = styled.div`
