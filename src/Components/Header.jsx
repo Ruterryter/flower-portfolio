@@ -55,7 +55,7 @@ export const StickyHeader = () => {
         <NavBar>
           <NavContent>About</NavContent>
           <NavContent>Contact</NavContent>
-          <NavContent>Pictures</NavContent>
+          <NavContent>News</NavContent>
         </NavBar>
       </HeaderNav>
     </Header>

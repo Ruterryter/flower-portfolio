@@ -5,8 +5,7 @@ import { Gallery } from './Components/Gallery';
 
 const AppWrapper = styled.div`
   height: 100vh;
-  width: 100vw;
-  background-color: #a6afb2;
+  width: 100vw; ;
 `;
 
 export const App = () => {
