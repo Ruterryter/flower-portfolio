@@ -48,7 +48,7 @@ const NavContent = styled.p`
   text-transform: uppercase;
 `;
 
-export const StickyHeader = () => {
+export const AppHeader = () => {
   return (
     <Header>
       <HeaderNav>

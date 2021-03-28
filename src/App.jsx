@@ -1,7 +1,9 @@
 import React from 'react';
-import { StickyHeader } from './Components/Header';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { AppHeader } from './Components/Header';
 import styled from 'styled-components';
 import { Gallery } from './Components/Gallery';
+import { About } from './Components/About';
 
 const AppWrapper = styled.div`
   height: 100vh;
@@ -10,9 +12,20 @@ const AppWrapper = styled.div`
 
 export const App = () => {
   return (
-    <AppWrapper>
-      <StickyHeader />;
-      <Gallery />
-    </AppWrapper>
+    <>
+      <BrowserRouter>
+        <AppWrapper>
+          <AppHeader />
+          <Switch>
+            <Route path='/' exact>
+              <Gallery />
+            </Route>
+            <Route path='/about' exact>
+              <About />
+            </Route>
+          </Switch>
+        </AppWrapper>
+      </BrowserRouter>
+    </>
   );
 };
