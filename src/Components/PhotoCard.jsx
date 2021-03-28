@@ -17,7 +17,7 @@ const Card = styled.div`
   box-shadow: 5px 10px;
 
   &:hover {
-    color: #6a5569;
+    color: #362335;
   }
 `;
 

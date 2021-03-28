@@ -21,20 +21,22 @@ const Name = styled.h1`
   /* font-family: 'Frijole', cursive; */
   /* font-family: 'Syne Mono', monospace; */
   margin: 2rem 0 0;
+  color: #362335;
 `;
 
 const Title = styled.h2`
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  margin: 0;
+  margin: 0.2rem;
   text-transform: uppercase;
+  color: #362335;
 `;
 
 const NavBar = styled.div`
   display: flex;
   flex-direction: row;
-  width: 60vw;
+  width: 40vw;
   justify-content: space-evenly;
 `;
 
@@ -51,11 +53,11 @@ export const StickyHeader = () => {
     <Header>
       <HeaderNav>
         <Name>Hanna Rüter</Name>
-        <Title>Flower Photographer</Title>
+        <Title>Blommor på bild</Title>
         <NavBar>
-          <NavContent>About</NavContent>
-          <NavContent>Contact</NavContent>
-          <NavContent>News</NavContent>
+          <NavContent>Om</NavContent>
+          <NavContent>Kontakt</NavContent>
+          <NavContent>Aktuellt</NavContent>
         </NavBar>
       </HeaderNav>
     </Header>
