@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Header = styled.header`
@@ -21,7 +22,7 @@ const Name = styled.h1`
   /* font-family: 'Frijole', cursive; */
   /* font-family: 'Syne Mono', monospace; */
   margin: 2rem 0 0;
-  color: #362335;
+  color: #6a5569;
 `;
 
 const Title = styled.h2`
@@ -48,6 +49,15 @@ const NavContent = styled.p`
   text-transform: uppercase;
 `;
 
+const LinkTo = styled(Link)`
+  text-decoration: none;
+  color: #262923;
+
+  &:hover {
+    color: #6a5569;
+  }
+`;
+
 export const AppHeader = () => {
   return (
     <Header>
@@ -55,7 +65,9 @@ export const AppHeader = () => {
         <Name>Hanna Rüter</Name>
         <Title>Blommor på bild</Title>
         <NavBar>
-          <NavContent>Om</NavContent>
+          <LinkTo to='/about'>
+            <NavContent>Om</NavContent>
+          </LinkTo>
           <NavContent>Kontakt</NavContent>
           <NavContent>Aktuellt</NavContent>
         </NavBar>
