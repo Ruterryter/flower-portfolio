@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { PhotoCard } from './PhotoCard';
-import hostanemonekvadrat from '../photoassets/hostanemonekvadrat.jpg';
-import anemonekvadrat from '../photoassets/anemonekvadrat.jpg';
-import anemonstaende from '../photoassets/anemonstaende.jpg';
-import staendehostanemone from '../photoassets/staendehostanemone.jpg';
-import te2 from '../photoassets/te2.jpg';
-import blandadkvadrat from '../photoassets/blandadkvadrat.jpg';
-import kvadratInsta from '../photoassets/kvadratInsta.jpg';
-import instaDarkKvadrat from '../photoassets/instaDarkKvadrat.jpg';
 
 const GalleryWrapper = styled.div`
   display: flex;
@@ -21,42 +13,42 @@ const photos = [
   {
     id: 1,
     title: 'All good things ...',
-    image: blandadkvadrat,
+    image: 'https://drive.google.com/uc?id=1YM92_xZbkV_BBZq7iKKAibTZibqqdj83',
   },
   {
     id: 2,
     title: 'Fall Once More',
-    image: hostanemonekvadrat,
+    image: 'https://drive.google.com/uc?id=1WvoYuoiUIfR4mIkdbvferFOKuagJmdHb',
   },
   {
     id: 3,
     title: 'Lipstick Laugther',
-    image: anemonekvadrat,
+    image: 'https://drive.google.com/uc?id=12p-u-NqxnqMN9T1AHdcPQjTmATni2qnO',
   },
   {
     id: 4,
     title: 'Beacause of no rain',
-    image: kvadratInsta,
+    image: 'https://drive.google.com/uc?id=1Ju-tSlMpZ5imSG6GAOmj2xUEr6gsS7Gx',
   },
   {
     id: 5,
     title: 'You can keep me',
-    image: instaDarkKvadrat,
+    image: 'https://drive.google.com/uc?id=1r8K_qfF5x_RZe_Pf0dxkxHPOUgpfGw77',
   },
   {
     id: 6,
-    title: 'Tea or me?',
-    image: te2,
+    title: 'Take a bow',
+    image: 'https://drive.google.com/uc?id=1CcFGEAlxGDGvF0GIyVv0F1hHZ5YQhaZb',
   },
   {
     id: 7,
     title: 'I Said No',
-    image: anemonstaende,
+    image: 'https://drive.google.com/uc?id=1wfRkXeMmwpLdoNZICwNejq12CkGjKO-P',
   },
   {
     id: 8,
     title: 'Fall Longer',
-    image: staendehostanemone,
+    image: 'https://drive.google.com/uc?id=1T3nQ_JjquUsyrV6GgP9Sli0-aJxyo97h',
   },
 ];
 
