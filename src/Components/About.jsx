@@ -17,7 +17,7 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   border: 0.1rem solid;
-  border-color: #956e96;
+  border-color: #262923;
   padding: 1rem;
   box-shadow: 5px 10px;
 `;
@@ -50,7 +50,7 @@ const MailLink = styled.a`
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    color: #bce3c6;
+    color: #956e96;
   }
 `;
 

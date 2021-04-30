@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import hanna_bast from './hanna_bast.jpg';
+import rostre from './rostre.jpg';
 
 const ContactPage = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: center;
   border: 0.1rem solid;
-  border-color: #956e96;
+  border-color: #262923;
   padding: 1rem;
   box-shadow: 5px 10px;
 `;
@@ -33,6 +33,14 @@ const Painting = styled.img`
   width: 100%;
 `;
 
+const Title = styled.h3`
+  text-align: center;
+  margin-bottom: 7px;
+  color: #262923;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+`;
+
 const MailLink = styled.a`
   text-align: center;
   margin-top: 7px;
@@ -42,7 +50,7 @@ const MailLink = styled.a`
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    color: #bce3c6;
+    color: #956e96;
   }
 `;
 
@@ -50,17 +58,26 @@ export const Contact = () => {
   return (
     <ContactPage>
       <Card>
-        <Painting src={hanna_bast} alt='Hanna Rüter' />
         <DetailsContainer>
+          <Title>Kontakta mig</Title>
           <MailLink
             aria-label='Hannas mail'
             href='mailto:hanna.ruter@gmail.com'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Maila mig vid intresse.
+            Email: Hanna Rüter
+          </MailLink>
+          <MailLink
+            aria-label='Instagram'
+            href='https://www.instagram.com/withering_highs/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Instagram: Withering_highs
           </MailLink>
         </DetailsContainer>
+        <Painting src={rostre} alt='rosor' />
       </Card>
     </ContactPage>
   );
