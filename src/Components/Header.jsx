@@ -62,8 +62,10 @@ export const AppHeader = () => {
   return (
     <Header>
       <HeaderNav>
-        <Name>Hanna Rüter</Name>
-        <Title>Blommor på bild</Title>
+        <LinkTo to='/'>
+          <Name>Hanna Rüter</Name>
+          <Title>Blommor på bild</Title>
+        </LinkTo>
         <NavBar>
           <LinkTo to='/about'>
             <NavContent>Om</NavContent>

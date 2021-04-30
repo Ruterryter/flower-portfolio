@@ -4,6 +4,7 @@ import { AppHeader } from './Components/Header';
 import styled from 'styled-components';
 import { Gallery } from './Components/Gallery';
 import { About } from './Components/About';
+import { Contact } from './Components/Contact';
 
 const AppWrapper = styled.div`
   height: 100vh;
@@ -22,6 +23,9 @@ export const App = () => {
             </Route>
             <Route path='/about' exact>
               <About />
+            </Route>
+            <Route path='/kontakt' exact>
+              <Contact />
             </Route>
           </Switch>
         </AppWrapper>

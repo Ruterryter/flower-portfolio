@@ -42,11 +42,22 @@ const photos = [
   },
   {
     id: 7,
+    title: 'Wrinkle',
+    image: 'https://drive.google.com/uc?id=1ke_NtJaEd1VSky6lsACyKxHoCAnh49Ar',
+  },
+
+  {
+    id: 8,
+    title: 'Sad and done',
+    image: 'https://drive.google.com/uc?id=1GwLUhn4FGTnajTZacuOamMr4YuDAqAmi',
+  },
+  {
+    id: 9,
     title: 'I Said No',
     image: 'https://drive.google.com/uc?id=1wfRkXeMmwpLdoNZICwNejq12CkGjKO-P',
   },
   {
-    id: 8,
+    id: 10,
     title: 'Fall Longer',
     image: 'https://drive.google.com/uc?id=1T3nQ_JjquUsyrV6GgP9Sli0-aJxyo97h',
   },
