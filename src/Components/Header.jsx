@@ -67,10 +67,12 @@ export const AppHeader = () => {
           <Title>Blommor på bild</Title>
         </LinkTo>
         <NavBar>
-          <LinkTo to='/about'>
+          <LinkTo to='/om'>
             <NavContent>Om</NavContent>
           </LinkTo>
-          <NavContent>Kontakt</NavContent>
+          <LinkTo to='/kontakt'>
+            <NavContent>Kontakt</NavContent>
+          </LinkTo>
           <NavContent>Aktuellt</NavContent>
         </NavBar>
       </HeaderNav>

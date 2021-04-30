@@ -21,7 +21,7 @@ export const App = () => {
             <Route path='/' exact>
               <Gallery />
             </Route>
-            <Route path='/about' exact>
+            <Route path='/om' exact>
               <About />
             </Route>
             <Route path='/kontakt' exact>
