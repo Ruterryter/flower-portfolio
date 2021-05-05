@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import hanna_bast from './hanna_bast.jpg';
+import hr from './hr.jpg';
 
 const AboutPage = styled.div`
   display: flex;
@@ -58,7 +58,7 @@ export const About = () => {
   return (
     <AboutPage>
       <Card>
-        <Painting src={hanna_bast} alt='Hanna Rüter' />
+        <Painting src={hr} alt='Hanna Rüter' />
         <DetailsContainer>
           <AboutMe>
             {' '}
