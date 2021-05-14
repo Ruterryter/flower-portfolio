@@ -14,6 +14,9 @@ const Card = styled.div`
   border-color: #262923;
   padding: 1rem;
   box-shadow: 5px 10px;
+  &:hover {
+    color: #362335;
+  }
 `;
 
 const DetailsContainer = styled.div`
@@ -27,7 +30,8 @@ const Painting = styled.img`
   width: 100%;
 `;
 
-const Title = styled.h2`
+const Title = styled.h3`
+  margin-bottom: 7px;
   color: #262923;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;

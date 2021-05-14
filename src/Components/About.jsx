@@ -5,7 +5,7 @@ import hr from './hr.jpg';
 const AboutPage = styled.div`
   display: flex;
   justify-content: center;
-  margin: 2rem 1rem;
+  margin: 2rem;
 `;
 
 const Card = styled.div`
@@ -31,7 +31,6 @@ const DetailsContainer = styled.div`
 
 const Painting = styled.img`
   width: 100%;
-  height: auto;
 `;
 
 const AboutMe = styled.p`
