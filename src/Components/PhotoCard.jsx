@@ -33,6 +33,7 @@ const DetailsContainer = styled.div`
 
 const Painting = styled.img`
   width: 100%;
+  height: auto;
 `;
 
 const Title = styled.h2`
