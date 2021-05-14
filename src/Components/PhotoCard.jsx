@@ -17,6 +17,9 @@ const Card = styled.div`
   &:hover {
     color: #362335;
   }
+  @media only screen and (max-width: 600px) {
+    width: 25rem;
+  }
 `;
 
 const DetailsContainer = styled.div`
@@ -27,7 +30,11 @@ const DetailsContainer = styled.div`
 `;
 
 const Painting = styled.img`
-  width: 100%;
+  width: 30rem;
+  align-self: center;
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
+  }
 `;
 
 const Title = styled.h3`
