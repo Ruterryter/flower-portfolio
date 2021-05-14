@@ -21,6 +21,7 @@ const Card = styled.div`
 
   @media only screen and (max-width: 600px) {
     width: 17rem;
+    margin: 1rem;
   }
 `;
 

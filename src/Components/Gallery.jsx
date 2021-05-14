@@ -7,6 +7,9 @@ const GalleryWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 2rem;
+  @media only screen and (max-width: 600px) {
+    margin: 1rem;
+  }
 `;
 
 const photos = [
