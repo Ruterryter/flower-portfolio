@@ -27,7 +27,7 @@ const DetailsContainer = styled.div`
 `;
 
 const Painting = styled.img`
-  width: 100vw;
+  width: 100%;
 `;
 
 const Title = styled.h3`
