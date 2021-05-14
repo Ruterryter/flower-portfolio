@@ -26,10 +26,12 @@ const Name = styled.h1`
 `;
 
 const Title = styled.h2`
+  display: flex;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  margin: 0.2rem;
+  margin: 0.2rem 0;
   text-transform: uppercase;
   color: #362335;
 `;
@@ -39,6 +41,9 @@ const NavBar = styled.div`
   flex-direction: row;
   width: 40vw;
   justify-content: space-evenly;
+  @media only screen and (max-width: 600px) {
+    width: 17rem;
+  }
 `;
 
 const NavContent = styled.p`

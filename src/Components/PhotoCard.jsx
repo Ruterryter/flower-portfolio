@@ -18,6 +18,10 @@ const Card = styled.div`
   &:hover {
     color: #362335;
   }
+
+  @media only screen and (max-width: 600px) {
+    width: 17rem;
+  }
 `;
 
 const DetailsContainer = styled.div`
@@ -31,20 +35,38 @@ const Painting = styled.img`
   width: 100%;
 `;
 
-const Title = styled.h3`
-  margin-bottom: 7px;
+const Title = styled.h2`
   color: #262923;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
 `;
 
-export const PhotoCard = ({ title, image }) => {
+const Details = styled.p`
+  color: #262923;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1px;
+  margin-bottom: 1px;
+`;
+
+const Price = styled.p`
+  color: #262923;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin-top: 1px;
+  margin-bottom: 1px;
+`;
+
+export const PhotoCard = ({ title, image, details, price }) => {
   return (
     <>
       <Card>
         <Painting src={image} alt={title} />
         <DetailsContainer>
           <Title>{title}</Title>
+          <Details>{details}</Details>
+          <Price>{price}</Price>
         </DetailsContainer>
       </Card>
     </>
