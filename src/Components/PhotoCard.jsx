@@ -14,10 +14,6 @@ const Card = styled.div`
   border-color: #262923;
   padding: 1rem;
   box-shadow: 5px 10px;
-
-  &:hover {
-    color: #362335;
-  }
 `;
 
 const DetailsContainer = styled.div`
@@ -29,7 +25,6 @@ const DetailsContainer = styled.div`
 
 const Painting = styled.img`
   width: 100%;
-  height: auto;
 `;
 
 const Title = styled.h2`
