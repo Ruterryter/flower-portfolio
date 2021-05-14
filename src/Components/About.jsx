@@ -6,6 +6,9 @@ const AboutPage = styled.div`
   display: flex;
   justify-content: center;
   margin: 2rem 1rem;
+  @media only screen and (max-width: 600px) {
+    margin: 1rem;
+  }
 `;
 
 const Card = styled.div`
