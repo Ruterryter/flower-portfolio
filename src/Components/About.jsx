@@ -23,9 +23,6 @@ const Card = styled.div`
   border-color: #262923;
   padding: 1rem;
   box-shadow: 5px 10px;
-  /* @media only screen and (max-width: 600px) {
-    width: 25rem;
-  } */
 `;
 
 const DetailsContainer = styled.div`

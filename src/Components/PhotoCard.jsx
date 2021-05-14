@@ -18,10 +18,6 @@ const Card = styled.div`
   &:hover {
     color: #362335;
   }
-
-  @media only screen and (max-width: 600px) {
-    width: 25rem;
-  }
 `;
 
 const DetailsContainer = styled.div`
