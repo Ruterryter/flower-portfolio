@@ -24,7 +24,7 @@ const Card = styled.div`
   padding: 1rem;
   box-shadow: 5px 10px;
   @media only screen and (max-width: 600px) {
-    width: 17rem;
+    width: 25rem;
   }
 `;
 
