@@ -78,7 +78,9 @@ export const AppHeader = () => {
           <LinkTo to='/kontakt'>
             <NavContent>Kontakt</NavContent>
           </LinkTo>
-          <NavContent>Aktuellt</NavContent>
+          <LinkTo to='/aktuellt'>
+            <NavContent>Aktuellt</NavContent>
+          </LinkTo>
         </NavBar>
       </HeaderNav>
     </Header>

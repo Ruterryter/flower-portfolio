@@ -52,7 +52,7 @@ const photos = [
   },
   {
     id: 5,
-    title: 'Lipstick Laugther',
+    title: 'Penolope',
     image: bookish,
     details: 'Aluminium 30 x 30',
     price: '2250 SEK',
