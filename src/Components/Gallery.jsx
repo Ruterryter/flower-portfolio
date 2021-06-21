@@ -13,6 +13,8 @@ import torkad from './PhotoGallery/torkad.jpg';
 import rosorRoda from './PhotoGallery/rosorRoda.jpg';
 import bookish from './PhotoGallery/bookish.jpg';
 import instaDarkKvadrat from './PhotoGallery/instaDarkKvadrat.jpg';
+import metallKallInsta from './PhotoGallery/metallKallInsta.jpg';
+import metallvarmInsta from './PhotoGallery/metallvarmInsta.jpg';
 
 const GalleryWrapper = styled.div`
   display: flex;
@@ -52,33 +54,48 @@ const photos = [
   },
   {
     id: 5,
+    title: 'Starry cold water',
+    image: metallKallInsta,
+    details: 'Aluminium el Canvas',
+    price: 'Kontakta mig vid intresse',
+  },
+  {
+    id: 6,
+    title: 'Starry warm water',
+    image: metallvarmInsta,
+    details: 'Aluminium el Canvas',
+    price: 'Kontakta mig vid intresse',
+  },
+  {
+    id: 7,
     title: 'Penolope',
     image: bookish,
     details: 'Aluminium 30 x 30',
     price: '2250 SEK',
   },
   {
-    id: 6,
+    id: 8,
     title: 'Beacause of no rain',
     image: torkad,
     details: 'Canvas el aluminium 50 x 50 cm',
     price: '2500 SEK / 2900 SEK',
   },
   {
-    id: 7,
+    id: 9,
     title: 'You can keep me',
     image: instaDarkKvadrat,
-    details: 'Kontakta mig vid intresse',
+    details: 'Canvas el Aluminium',
+    price: 'Kontakta mig vid intresse',
   },
   {
-    id: 8,
+    id: 10,
     title: 'Take a bow',
     image: rosorRoda,
     details: 'Canvas 50 x 50cm',
     price: '2900 SEK',
   },
   {
-    id: 9,
+    id: 11,
     title: 'Wrinkle',
     image: rakKvadratInsta2,
     details: 'Aluminium 40 x 40cm',
@@ -86,23 +103,25 @@ const photos = [
   },
 
   {
-    id: 10,
+    id: 12,
     title: 'Sad and done',
     image: torkadJulrosInsta,
-    details: 'Kontakta mig vid intresse',
+    details: 'Canvas el Aluminium',
+    price: 'Kontakta mig vid intresse',
   },
   {
-    id: 11,
+    id: 13,
     title: 'I Said No',
     image: rosorStaende,
     details: 'Aluminium 40 x 60cm',
     price: '2750 SEK',
   },
   {
-    id: 12,
+    id: 14,
     title: 'Fall Longer',
     image: anemonStaende1,
-    details: 'Kontakta mig vid intresse',
+    details: 'Canvas el Aluminium',
+    price: 'Kontakta mig vid intresse',
   },
 ];
 
