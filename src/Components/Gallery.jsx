@@ -6,15 +6,15 @@ import LinjeInsta from './PhotoGallery/LinjeInsta.jpg';
 import rakKvadratInsta2 from './PhotoGallery/rakKvadratInsta2.jpg';
 import rosorStaende from './PhotoGallery/rosorStaende.jpg';
 import anemonKvadrat from './PhotoGallery/anemonKvadrat.jpg';
-import torkadJulrosInsta from './PhotoGallery/torkadJulrosInsta.jpg';
 import sommarKvadrat from './PhotoGallery/sommarKvadrat.jpg';
 import anemonStaende1 from './PhotoGallery/anemonStaende1.jpg';
 import torkad from './PhotoGallery/torkad.jpg';
 import rosorRoda from './PhotoGallery/rosorRoda.jpg';
 import bookish from './PhotoGallery/bookish.jpg';
-import instaDarkKvadrat from './PhotoGallery/instaDarkKvadrat.jpg';
-import metallKallInsta from './PhotoGallery/metallKallInsta.jpg';
-import metallvarmInsta from './PhotoGallery/metallvarmInsta.jpg';
+import tulpan from './PhotoGallery/tulpan.jpg';
+import rostkvadrat from './PhotoGallery/rostkvadrat.jpg';
+import druvklase from './PhotoGallery/druvklase.jpg';
+import perukbladInsta from './PhotoGallery/perukbladInsta.jpg';
 
 const GalleryWrapper = styled.div`
   display: flex;
@@ -54,61 +54,61 @@ const photos = [
   },
   {
     id: 5,
-    title: 'Starry cold water',
-    image: metallKallInsta,
+    title: 'Rusty love',
+    image: rostkvadrat,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
     id: 6,
-    title: 'Starry warm water',
-    image: metallvarmInsta,
+    title: 'Fading like me',
+    image: tulpan,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
     id: 7,
+    title: 'Sweet but bitter',
+    image: druvklase,
+    details: 'Aluminium el Canvas',
+    price: 'Kontakta mig vid intresse',
+  },
+  {
+    id: 8,
+    title: 'Purple rain',
+    image: perukbladInsta,
+    details: 'Aluminium el Canvas',
+    price: 'Kontakta mig vid intresse',
+  },
+  {
+    id: 9,
     title: 'Penolope',
     image: bookish,
     details: 'Aluminium 30 x 30',
     price: '2250 SEK',
   },
   {
-    id: 8,
+    id: 10,
     title: 'Beacause of no rain',
     image: torkad,
     details: 'Canvas el aluminium 50 x 50 cm',
     price: '2500 SEK / 2900 SEK',
   },
   {
-    id: 9,
-    title: 'You can keep me',
-    image: instaDarkKvadrat,
-    details: 'Canvas el Aluminium',
-    price: 'Kontakta mig vid intresse',
-  },
-  {
-    id: 10,
+    id: 11,
     title: 'Take a bow',
     image: rosorRoda,
     details: 'Canvas 50 x 50cm',
     price: '2900 SEK',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Wrinkle',
     image: rakKvadratInsta2,
     details: 'Aluminium 40 x 40cm',
     price: '2750 SEK',
   },
 
-  {
-    id: 12,
-    title: 'Sad and done',
-    image: torkadJulrosInsta,
-    details: 'Canvas el Aluminium',
-    price: 'Kontakta mig vid intresse',
-  },
   {
     id: 13,
     title: 'I Said No',

@@ -63,6 +63,10 @@ export const News = () => {
       <Card>
         <DetailsContainer>
           <NewsText>
+            <h3>Sommaren 2022</h3>
+            Jag hoppas kunna ställa ut mina alster även denna sommar. Stay tuned
+            för plats och datum.
+            <h3>Sommaren 2021</h3>
             Kom och kika på mina tavlor när jag ställer ut på{' '}
             <Linking
               href='https://www.instagram.com/lindasfingermat/'
