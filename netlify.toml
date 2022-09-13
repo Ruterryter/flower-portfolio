@@ -1,0 +1,3 @@
+[build]
+  command = "REACT_APP_CONTEXT=$CONTEXT npm run build"
+  
