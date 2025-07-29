@@ -15,6 +15,8 @@ import tulpan from './PhotoGallery/tulpan.jpg';
 import rostkvadrat from './PhotoGallery/rostkvadrat.jpg';
 import druvklase from './PhotoGallery/druvklase.jpg';
 import perukbladInsta from './PhotoGallery/perukbladInsta.jpg';
+import juliInsta from './PhotoGallery/juliinsta2.jpg';
+import syren1 from './PhotoGallery/syren1.jpg';
 
 const GalleryWrapper = styled.div`
   display: flex;
@@ -40,69 +42,83 @@ const photos = [
   },
   {
     id: 3,
+    title: 'Lilacs blossom',
+    image: syren1,
+    details: 'Plexiglas el aluminium',
+    price: 'Kontakta mig vid intresse',
+  },
+  {
+    id: 4,
+    title: 'Summer Lovin',
+    image: juliInsta,
+    details: 'Plexiglas el aluminium',
+    price: 'Kontakta mig vid intresseG',
+  },
+  {
+    id: 5,
     title: 'All good things ...',
     image: sommarKvadrat,
     details: 'Canvas 50 x 50cm',
     price: '2900 SEK',
   },
   {
-    id: 4,
+    id: 6,
     title: 'Fall Once More',
     image: anemonKvadrat,
     details: 'Plexiglas el aluminium 30 x 30cm',
     price: '2500 SEK',
   },
   {
-    id: 5,
+    id: 7,
     title: 'Rusty love',
     image: rostkvadrat,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
-    id: 6,
+    id: 8,
     title: 'Fading like me',
     image: tulpan,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
-    id: 7,
+    id: 9,
     title: 'Sweet but bitter',
     image: druvklase,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
-    id: 8,
+    id: 10,
     title: 'Purple rain',
     image: perukbladInsta,
     details: 'Aluminium el Canvas',
     price: 'Kontakta mig vid intresse',
   },
   {
-    id: 9,
+    id: 11,
     title: 'Penolope',
     image: bookish,
     details: 'Aluminium 30 x 30',
     price: '2250 SEK',
   },
   {
-    id: 10,
+    id: 12,
     title: 'Beacause of no rain',
     image: torkad,
     details: 'Canvas el aluminium 50 x 50 cm',
     price: '2500 SEK / 2900 SEK',
   },
   {
-    id: 11,
+    id: 13,
     title: 'Take a bow',
     image: rosorRoda,
     details: 'Canvas 50 x 50cm',
     price: '2900 SEK',
   },
   {
-    id: 12,
+    id: 14,
     title: 'Wrinkle',
     image: rakKvadratInsta2,
     details: 'Aluminium 40 x 40cm',
@@ -110,14 +126,14 @@ const photos = [
   },
 
   {
-    id: 13,
+    id: 15,
     title: 'I Said No',
     image: rosorStaende,
     details: 'Aluminium 40 x 60cm',
     price: '2750 SEK',
   },
   {
-    id: 14,
+    id: 16,
     title: 'Fall Longer',
     image: anemonStaende1,
     details: 'Canvas el Aluminium',
