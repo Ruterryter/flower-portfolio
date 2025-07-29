@@ -52,7 +52,7 @@ const photos = [
     title: 'Summer Lovin',
     image: juliInsta,
     details: 'Plexiglas el aluminium',
-    price: 'Kontakta mig vid intresseG',
+    price: 'Kontakta mig vid intresse',
   },
   {
     id: 5,
