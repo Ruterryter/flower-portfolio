@@ -17,6 +17,9 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
+  "overrides": {
+    "minimatch": "^10.2.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
